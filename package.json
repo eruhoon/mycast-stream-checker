@@ -13,7 +13,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.15.2",
-    "require": "^2.4.20"
+    "require": "^2.4.20",
+    "socket.io": "^1.7.3"
   },
   "readme": "README.md",
   "repository": {
