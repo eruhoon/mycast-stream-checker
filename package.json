@@ -10,5 +10,17 @@
     "mycast"
   ],
   "author": "eruhoon",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "require": "^2.4.20"
+  },
+  "readme": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eruhoon/mycast-stream-checker.git"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
 }
