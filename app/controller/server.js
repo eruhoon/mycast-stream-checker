@@ -6,9 +6,6 @@ const config = require('../config');
 
 /** 
  * @class {ServerController} ServerController
- * 
- 
-
  * @this ServerController
  */
 module.exports = class ServerController {
@@ -37,6 +34,10 @@ module.exports = class ServerController {
 		this._server.listen(this._port, () => {
 			console.log('Stream Checker started..');
 		});
+	}
+
+	get(dir, callback) {
+		this._app.get(dir, callback);
 	}
 
 	_init() {
